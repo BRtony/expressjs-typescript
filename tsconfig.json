@@ -13,7 +13,9 @@
                 "node_modules/*",
                 "src/types/*"
             ]
-        }
+        },
+        "experimentalDecorators": true, /* Enable experimental support for TC39 stage 2 draft decorators. */
+        "emitDecoratorMetadata": true,
     },
     "include": [
         "src/**/*"
