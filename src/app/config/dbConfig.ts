@@ -1,21 +1,21 @@
-// import mysql from 'mysql2';
+import mysql from 'mysql2';
 
-// // local mysql db connection
-// const dbConn = mysql.createConnection({
-//     host: "localhost",
-//     user: "user",
-//     password: "user",
-//     database: "newuser"
-// });
+// local mysql db connection
+const dbConn = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "0200",
+    database: "tsproj"
+});
 
-// dbConn.connect(err => {
-//     if (err) {
-//         console.log(err)
-//     }
+dbConn.connect(err => {
+    if (err) {
+        console.log(err)
+    }
 
-//     console.log("Conectado!");
+    console.log("Conectado!");
 
 
-// });
+});
 
-// export default dbConn;
+export default dbConn;

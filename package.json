@@ -1,11 +1,11 @@
 {
     "name": "express-typescript",
     "version": "1.0.0",
-    "description": "This is a simple expressJS application template using NodeJS and Typescript",
+    "description": "",
     "main": "dist/index.js",
     "scripts": {
         "start": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
-        "dev": "npx nodemon --exec ts-node --files src/index.ts",
+        "dev": "npx nodemon --exec ts-node --files src/server.ts",
         "dev:start": "npm-run-all build dev",
         "build": "npm-run-all clean lint tsc copy-assets",
         "copy-assets": "ts-node tools/copyAssets",

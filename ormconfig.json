@@ -2,12 +2,13 @@
     "type": "mysql",
     "host": "localhost",
     "port": 3306,
-    "username": "user",
-    "password": "user",
-    "database": "typescriptauth",
+    "username": "root",
+    "password": "0200",
+    "database": "tsproj",
+    "synchronize": true,
     "logging": false,
     "entities": [
-        "src/app/models/*.ts"
+        "src/database/entity/*.ts"
     ],
     "migrations": [
         "src/database/migrations/*.ts"
