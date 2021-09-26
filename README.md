@@ -6,7 +6,7 @@ Instructions:
 2. Run npm install
 3. Create a .env file (see .env.sample for an example)
 4. Run npm start
-5. Visit localhost:8080
+5. Visit localhost:3000
 
 To run in debug mode, simply hit F5
 
